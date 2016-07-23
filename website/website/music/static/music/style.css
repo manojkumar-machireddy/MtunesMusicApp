@@ -1,0 +1,13 @@
+body{
+    background: whitesmoke url("images/background.jpg");
+}
+
+.navbar{
+
+    border-radius: 0;
+}
+
+.navbar-brand{
+
+    font-family: 'Lobster', cursive;
+}
