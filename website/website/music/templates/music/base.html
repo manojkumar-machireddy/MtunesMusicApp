@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mtunes</title>
+    <title>{% block title %}Mtunes{% endblock %}</title>
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}"/>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
@@ -43,7 +43,7 @@
             </form>
             <ul class="nav navbar-nav navbar-right">
                 <li class="">
-                    <a href="#">
+                    <a href="{% url "music:album_add" %}">
                         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Add Albums
                     </a>
                 </li>
@@ -63,6 +63,7 @@
 
   </nav>
 
-
+{% block body %}
+{% endblock %}
 </body>
 </html>

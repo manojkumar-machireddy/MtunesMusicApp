@@ -1,36 +1,25 @@
 # Create your views here.
-from django.http import HttpResponse
-from django.shortcuts import get_object_or_404
+
+from django.views import generic
 from .models import Album
-from django.template import loader
-
-def index(request):
-    all_albums =  Album.objects.all()
-    template = loader.get_template('music/index.html')
-    context = {"all_albums": all_albums}
-    return HttpResponse(template.render(context,request))
+from django.views.generic.edit import CreateView,UpdateView,DeleteView
 
 
-def detail(request, album_id):
-    album = get_object_or_404(Album,pk = album_id)
-    context ={'album':album}
-    template = loader.get_template('music/details.html')
-    return HttpResponse(template.render(context,request))
+class IndexView(generic.ListView):
+    template_name = "music/index.html"
 
-def favourite(request,album_id):
-    album = get_object_or_404(Album,pk = album_id )
-    context ={'error_message':"the song is already exists,now u deselected it", 'album':album}
+    def get_queryset(self):
+        return Album.objects.all()
 
-    template = loader.get_template('music/details.html')
-    try:
-        selected_song = album.song_set.get(pk=request.POST['song'])
-    except (KeyError, Song.DoesNotExist):
+class DetailView(generic.DetailView):
+    model = Album
+    template_name = "music/details.html"
 
-        return HttpResponse(template.render(context,request))
-    else:
-        selected_song.is_favourite = True
-        selected_song.save()
-        return HttpResponse(template.render(context,request))
+class AlbumCreate(CreateView):
+    model = Album
+    fields = ['artist', 'album_title', 'logo','genre' ]
+
+
 
 
 

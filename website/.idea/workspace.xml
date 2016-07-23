@@ -30,17 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/website/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/music/admin.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,7 +42,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/music/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="12" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -64,10 +53,28 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/music/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="782">
+            <state line="9" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding>
-                <element signature="e#26#62#0" expanded="true" />
+                <element signature="e#27#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="album_form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/music/templates/music/album_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-template.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/music/templates/music/form-template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="10" selection-start="321" selection-end="321" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,16 +82,27 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/music/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="6" column="30" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/music/templates/music/details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/website/music/templates/music/details.html">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/music/templates/music/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -99,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/music/templates/music/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="5" selection-start="484" selection-end="2417" vertical-scroll-proportion="-16.153847" vertical-offset="617" max-vertical-offset="1292">
+            <state line="6" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.1969112" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -129,13 +147,16 @@
         <option value="$PROJECT_DIR$/website/website/settings.py" />
         <option value="$PROJECT_DIR$/website/music/templates/music/details" />
         <option value="$PROJECT_DIR$/website/music/admin.py" />
-        <option value="$PROJECT_DIR$/website/music/urls.py" />
-        <option value="$PROJECT_DIR$/website/music/models.py" />
-        <option value="$PROJECT_DIR$/website/music/views.py" />
         <option value="$PROJECT_DIR$/website/music/static/music/stylesheet.css" />
-        <option value="$PROJECT_DIR$/website/music/templates/music/index.html" />
         <option value="$PROJECT_DIR$/website/music/static/music/style.css" />
         <option value="$PROJECT_DIR$/website/music/templates/music/details.html" />
+        <option value="$PROJECT_DIR$/website/music/models.py" />
+        <option value="$PROJECT_DIR$/website/music/urls.py" />
+        <option value="$PROJECT_DIR$/website/music/templates/music/album_form.html" />
+        <option value="$PROJECT_DIR$/website/music/templates/music/form-template.html" />
+        <option value="$PROJECT_DIR$/website/music/templates/music/base.html" />
+        <option value="$PROJECT_DIR$/website/music/views.py" />
+        <option value="$PROJECT_DIR$/website/music/templates/music/index.html" />
       </list>
     </option>
   </component>
@@ -321,6 +342,7 @@
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="C:/Python34" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -638,16 +660,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../new 1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../customers_orders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../marks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -689,31 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/music/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/music/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="782">
-          <folding>
-            <element signature="e#26#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/music/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/music/static/music/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="1" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
@@ -721,16 +708,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/music/templates/music/index.html">
+    <entry file="file://$PROJECT_DIR$/website/music/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="5" selection-start="484" selection-end="2417" vertical-scroll-proportion="-16.153847" vertical-offset="617" max-vertical-offset="1292">
+        <state line="6" column="30" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/music/templates/music/album_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/music/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/music/templates/music/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/music/templates/music/form-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="321" selection-end="321" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/music/templates/music/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+        <state line="15" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/music/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding>
+            <element signature="e#27#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/music/templates/music/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.1969112" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
